@@ -2,7 +2,7 @@
 
  Add short description of project here > 
 
-![add image descrition here] ([https://hips.hearstapps.com/hmg-prod/images/skittles-candy-3-pound-bag-1613163635.jpg])
+![add image descrition here] (https://hips.hearstapps.com/hmg-prod/images/skittles-candy-3-pound-bag-1613163635.jpg)
 
 ## The Algorithm
 
