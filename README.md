@@ -1,8 +1,8 @@
 # Skittle-Colour-Detection
 
- Add short description of project here > 
+ In this project, I aimed to detect the different colours/flavours of skittles, and detect how many of each colour are in a pack. I chose to tackle this problem with ai, as i've always thought the flavours of skittles in a pack are sometimes skewed towards favouring certain flavours. This ai can help me detect this, as it can differentiate between the different flavours. As I am in the UK, the 5 different colours/flavours of a standards skittles pack is: Green(Apple), Orange(Orange), Red(Strawberry), Purple(Blackcurrant) and Yellow(Lemon). > 
 
-![add image descrition here](https://hips.hearstapps.com/hmg-prod/images/skittles-candy-3-pound-bag-1613163635.jpg)
+![Here is an image of an assortment of skittles, showcasing the 5 different colours I will be detecting in this project:](https://hips.hearstapps.com/hmg-prod/images/skittles-candy-3-pound-bag-1613163635.jpg)
 
 ## The Algorithm
 
