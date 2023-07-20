@@ -1,2 +1,5 @@
-cat
-dog
+green
+orange
+purple
+red
+yellow
