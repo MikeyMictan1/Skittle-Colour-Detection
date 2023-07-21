@@ -8,11 +8,15 @@
 
 ## The Algorithm
 
-Add an explanation of the algorithm and how it works. Make sure to include details about how the code works, what it depends on, and any other relevant info. Add images or other descriptions for your project here. 
+This project makes use of the jetson nano to test our ai model, which is a retrained version of resnet-18, as the base AI program. The dataset used for the retrained model, I made myself, by taking pictures of individual skittles of each colour, and groups of different colours of skittles. These images/skittles are seperated and labeled by their colours. When we run the program, imagenet.py will take an inputted image of a skittle, and it will output what colour it think the skittle is, as the trained model of resnet-18 can differentiate between the 5 different colours of skittle (Red, Green, Orange, Purple, Yellow).
 
 ## Running this project
 
-1. Add steps for running this project.
-2. Make sure to include any required libraries that need to be installed for your project to run.
+Required Libraries:
+-resnet-18
+-imagenet
+
+1. Log into your jetson nano on VScode
+2. A
 
 [View a video explanation here](video link)
