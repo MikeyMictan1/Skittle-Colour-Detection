@@ -1,6 +1,8 @@
-# Skittle-Colour-Detection
+# Skittle-Colour-Classification
 
- In this project, I aimed to detect the different colours/flavours of skittles, and detect how many of each colour are in a pack. I chose to tackle this problem with ai, as i've always thought the flavours of skittles in a pack are sometimes skewed towards favouring certain flavours. 
+ In this project, I aimed to classify and detect the different colours/flavours of skittles, and detect how many of each colour are in a pack. I chose to tackle this problem with ai, as I watched a video of someone colourblind attempting to sort skittles by their colours, and ended up finding it very difficult to differentiate between them. This proejct can help those who are colourblind, differentiate between these different flavoured skittles.
+ 
+ I have also had a thought that the flavours of skittles in a pack are sometimes skewed towards favouring certain colours, as I occasiaonaly get far more of one colour than another. 
  
  This ai can help me detect this, as it can differentiate between the different flavours. As I am in the UK, the 5 different colours/flavours of a standards skittles pack is: Green(Apple), Orange(Orange), Red(Strawberry), Purple(Blackcurrant) and Yellow(Lemon).
 
@@ -17,6 +19,11 @@ Required Libraries:
 -imagenet
 
 1. Log into your jetson nano on VScode
-2. A
+2. Make sure you have jetson-inference installed
+3. git clone and install the project: (https://github.com/MikeyMictan1/Skittle-Colour-Detection.git)https://github.com/MikeyMictan1/Skittle-Colour-Detection.git
+4. Get into the directory with the project by doing: ```cd project_file_folder/Classification```
+5. Run in the terminal: ```python3 my-imagenet.py /dev/video0 rtp://your_ip_address:1234```
+6. Make sure your camera is on, make sure the camera feed is ran through a .sdp file
+7. Put a skittle in front of the camera, and it can detect the 5 different colours/flavours of skittle (red, green, yellow, orange, purple)
 
 [View a video explanation here](video link)
