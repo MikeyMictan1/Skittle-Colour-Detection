@@ -23,7 +23,7 @@ Required Libraries:
 3. install the project: git clone https://github.com/MikeyMictan1/Skittle-Colour-Detection.git
 4. Get into the directory with the project by doing: ```cd project_file_folder/Classification```
 5. Run in the terminal: ```python3 my-imagenet.py /dev/video0 rtp://your_ip_address:1234```
-6. Make sure your camera is on, make sure the camera feed is ran through a .sdp file
+6. Make sure your camera is on, make sure the camera feed is ran through a .sdp file, [you can follow this to setup the .sdp file](https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-streaming.md#rtsp)
 7. Put a skittle in front of the camera, and it can detect the 5 different colours/flavours of skittle (red, green, yellow, orange, purple)
 
 [View a video explanation here](https://www.youtube.com/watch?v=1UHk__i9R7w)
