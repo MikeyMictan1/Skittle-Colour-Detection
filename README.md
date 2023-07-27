@@ -26,4 +26,4 @@ Required Libraries:
 6. Make sure your camera is on, make sure the camera feed is ran through a .sdp file
 7. Put a skittle in front of the camera, and it can detect the 5 different colours/flavours of skittle (red, green, yellow, orange, purple)
 
-[View a video explanation here](video link)
+[View a video explanation here](https://www.youtube.com/watch?v=1UHk__i9R7w)
