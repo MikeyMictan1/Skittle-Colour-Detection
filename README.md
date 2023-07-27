@@ -20,7 +20,7 @@ Required Libraries:
 
 1. Log into your jetson nano on VScode
 2. Make sure you have jetson-inference installed
-3. git clone and install the project: (https://github.com/MikeyMictan1/Skittle-Colour-Detection.git)https://github.com/MikeyMictan1/Skittle-Colour-Detection.git
+3. install the project: git clone https://github.com/MikeyMictan1/Skittle-Colour-Detection.git
 4. Get into the directory with the project by doing: ```cd project_file_folder/Classification```
 5. Run in the terminal: ```python3 my-imagenet.py /dev/video0 rtp://your_ip_address:1234```
 6. Make sure your camera is on, make sure the camera feed is ran through a .sdp file
